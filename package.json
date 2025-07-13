@@ -1,0 +1,20 @@
+{
+  "name": "exercicio1-typescript",
+  "version": "1.0.0",
+  "description": "Exercícios progressivos de TypeScript",
+  "main": "Exercicio1.ts",
+  "scripts": {
+    "start": "ts-node Exercicio1.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn Exercicio1.ts"
+  },
+  "keywords": ["typescript", "node", "exercicios"],
+  "author": "Wellington",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}
